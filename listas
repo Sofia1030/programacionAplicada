@@ -37,7 +37,7 @@ print("size = ", size)
 my_lista_3 = my_lista*3
 print("my_lista_3: ", my_lista_3)
 
-print("Sort:")
+print("Sort:") #le da un orden determinado a la lista
 print()
 my_listaSort = my_lista.sort()
 print(my_listaSort)
