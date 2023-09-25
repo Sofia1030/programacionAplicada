@@ -1,0 +1,21 @@
+# Bucle for para imprimir los números pares del 1 al 10
+print("Números pares del 1 al 10:")
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+# Bucle while para contar hasta 5
+print("\nContando hasta 5 con un bucle while:")
+contador = 1
+while contador <= 5:
+    print(contador)
+    contador += 1
+
+# Condicional simple para verificar si un número es positivo, negativo o cero
+numero = int(input("\nIngresa un número: "))
+if numero > 0:
+    print("El número es positivo.")
+elif numero < 0:
+    print("El número es negativo.")
+else:
+    print("El número es cero.")
